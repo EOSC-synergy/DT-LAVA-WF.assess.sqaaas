@@ -1,0 +1,73 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: main
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    gitlab.com/louise.cordrie/DT-LAVA-WF:
+      branch: main
+      repo: https://gitlab.com/louise.cordrie/DT-LAVA-WF
+      subfolder: DTC53/WF5301/ST530101/src
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      gitlab.com/louise.cordrie/DT-LAVA-WF git:
+        commands:
+        - /usr/bin/env sh .sqa/script.bluesy-cardinal-pig.sh
+        container: qc.acc_cozy-ecru-slug
+  QC.Doc:
+    repos:
+      gitlab.com/louise.cordrie/DT-LAVA-WF find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.gimpy-lavender-spitz.sh
+        container: qc.doc_zippy-turquoise-otter
+      gitlab.com/louise.cordrie/DT-LAVA-WF git:
+        commands:
+        - /usr/bin/env sh .sqa/script.slaphappy-beige-kakapo.sh
+        container: qc.doc_skinny-tangerine-loon
+      gitlab.com/louise.cordrie/DT-LAVA-WF markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.tasty-orange-whale.sh
+        container: qc.doc_leaky-tan-bloodhound
+  QC.Lic:
+    repos:
+      gitlab.com/louise.cordrie/DT-LAVA-WF licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.clammy-olive-bee.sh
+        container: qc.lic_wiggy-persimmon-shark
+  QC.Sec:
+    repos:
+      gitlab.com/louise.cordrie/DT-LAVA-WF bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.craggy-amaranth-toad.sh
+        container: qc.sec_boozy-rust-giraffe
+  QC.Sty:
+    repos:
+      gitlab.com/louise.cordrie/DT-LAVA-WF flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.tasty-purple-yak.sh
+        container: qc.sty_snippy-beige-mole
+      gitlab.com/louise.cordrie/DT-LAVA-WF jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.homey-pumpkin-albatross.sh
+        container: qc.sty_crabby-xanthic-angelfish
+      gitlab.com/louise.cordrie/DT-LAVA-WF oclint:
+        commands:
+        - /usr/bin/env sh .sqa/script.zippy-cerulean-iguana.sh
+        container: qc.sty_cozy-linen-horse
+  QC.Uni:
+    repos:
+      gitlab.com/louise.cordrie/DT-LAVA-WF commands:
+        commands:
+        - /usr/bin/env sh .sqa/script.randy-vermilion-falcon.sh
+        container: qc.uni_beady-brown-forest
+  QC.Ver:
+    repos:
+      gitlab.com/louise.cordrie/DT-LAVA-WF get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.nippy-tangerine-frog.sh
+        container: qc.ver_homely-lemon-kingfisher
+timeout: 5400

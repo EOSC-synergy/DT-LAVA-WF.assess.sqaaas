@@ -3,14 +3,14 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1752074984.497061
+        "timestamp": 1752133862.2962658
     },
     "repository": [
         {
             "url": "https://gitlab.com/louise.cordrie/DT-LAVA-WF",
             "name": "louise.cordrie/DT-LAVA-WF",
             "tag": "main",
-            "commit_id": "51407f9d0733fd68b5f4e80acd373e320ac9fc3c",
+            "commit_id": "68ef108a81e6bc133289b48fa26d7c5de93e4e05",
             "is_main_repo": true,
             "badge_status": "no_badge"
         }
@@ -45,8 +45,8 @@
                                     "stdout_command": [
                                         "git rev-parse --is-inside-work-tree "
                                     ],
-                                    "stdout_text": ".sqa/script.bluesy-cardinal-pig.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/34/log?consoleFull"
+                                    "stdout_text": ".sqa/script.sickly-myrtle-flamingo.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -94,8 +94,8 @@
                                     "stdout_command": [
                                         "git rev-parse --is-inside-work-tree "
                                     ],
-                                    "stdout_text": ".sqa/script.slaphappy-beige-kakapo.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/52/log?consoleFull"
+                                    "stdout_text": ".sqa/script.ugly-xanthic-cheetah.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -136,8 +136,8 @@
                                     "stdout_command": [
                                         "mdl --json  ."
                                     ],
-                                    "stdout_text": ".sqa/script.tasty-orange-whale.sh: cd: line 7: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src: No such file or directory",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/61/log?consoleFull"
+                                    "stdout_text": ".sqa/script.wimpy-yellow-axolotl.sh: cd: line 7: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src: No such file or directory",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -188,8 +188,8 @@
                                     "stdout_command": [
                                         "flake8 ."
                                     ],
-                                    "stdout_text": ".sqa/script.tasty-purple-yak.sh: cd: line 7: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src: No such file or directory",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/88/log?consoleFull"
+                                    "stdout_text": ".sqa/script.seedy-silver-toad.sh: cd: line 7: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src: No such file or directory",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/88/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -199,7 +199,7 @@
                                 "version": "v4.0",
                                 "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
                             },
-                            "data_unstructured": ".sqa/script.tasty-purple-yak.sh: cd: line 7: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src: No such file or directory"
+                            "data_unstructured": ".sqa/script.seedy-silver-toad.sh: cd: line 7: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src: No such file or directory"
                         },
                         {
                             "valid": false,
@@ -222,8 +222,8 @@
                                     "stdout_command": [
                                         "jsonlint-cli \"**/*.json\""
                                     ],
-                                    "stdout_text": ".sqa/script.homey-pumpkin-albatross.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/97/log?consoleFull"
+                                    "stdout_text": ".sqa/script.pretty-burgundy-tang.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/97/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -256,8 +256,8 @@
                                     "stdout_command": [
                                         "oclint  -- -c"
                                     ],
-                                    "stdout_text": ".sqa/script.zippy-cerulean-iguana.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/106/log?consoleFull"
+                                    "stdout_text": ".sqa/script.blurry-dandelion-bongo.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -309,8 +309,8 @@
                                     "stdout_command": [
                                         "echo 'Here we will execute COMPSs'"
                                     ],
-                                    "stdout_text": ".sqa/script.randy-vermilion-falcon.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/115/log?consoleFull"
+                                    "stdout_text": ".sqa/script.pokey-maroon-hornet.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/115/log?consoleFull"
                                 },
                                 "level": null,
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -362,8 +362,8 @@
                                     "stdout_command": [
                                         "get_git_tags.py"
                                     ],
-                                    "stdout_text": ".sqa/script.nippy-tangerine-frog.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/124/log?consoleFull"
+                                    "stdout_text": ".sqa/script.beady-cornflower-toucan.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/124/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -405,8 +405,8 @@
                                     "stdout_command": [
                                         "get_git_tags.py"
                                     ],
-                                    "stdout_text": ".sqa/script.nippy-tangerine-frog.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/124/log?consoleFull"
+                                    "stdout_text": ".sqa/script.beady-cornflower-toucan.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/124/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"
@@ -448,8 +448,8 @@
                                     "stdout_command": [
                                         "get_git_tags.py"
                                     ],
-                                    "stdout_text": ".sqa/script.nippy-tangerine-frog.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/1/execution/node/124/log?consoleFull"
+                                    "stdout_text": ".sqa/script.beady-cornflower-toucan.sh: 7: cd: can't cd to gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/DT-LAVA-WF.assess.sqaaas/job/main/2/execution/node/124/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/DT-LAVA-WF.assess.sqaaas"

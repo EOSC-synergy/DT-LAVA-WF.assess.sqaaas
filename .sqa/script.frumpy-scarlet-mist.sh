@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd gitlab.com/louise.cordrie/DT-LAVA-WF/DTC53/WF5301/ST530101/src &&
-    bandit -f json --quiet  --confidence-level high --severity-level high --recursive  .
+cd gitlab.com/louise.cordrie/DT-LAVA-WF &&
+    jsonlint-cli "**/*.json"
 )

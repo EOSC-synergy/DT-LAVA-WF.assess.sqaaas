@@ -6,7 +6,8 @@ config:
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     gitlab.com/louise.cordrie/DT-LAVA-WF:
       branch: main
-      repo: https://gitlab.com/louise.cordrie/DT-LAVA-WF
+      repo: https://gitlab.com/louise.cordrie/DT-LAVA-WF/
+      subfolder: WF5301/ST530101
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
@@ -15,58 +16,58 @@ sqa_criteria:
     repos:
       gitlab.com/louise.cordrie/DT-LAVA-WF git:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-apricot-ant.sh
-        container: qc.acc_seedy-xanthic-newfoundland
+        - /usr/bin/env sh .sqa/script.queasy-green-hyrax.sh
+        container: qc.acc_flabby-myrtle-cuscus
   QC.Doc:
     repos:
       gitlab.com/louise.cordrie/DT-LAVA-WF find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-wisteria-ibis.sh
-        container: qc.doc_zippy-wisteria-maltese
+        - /usr/bin/env sh .sqa/script.sleazy-brown-guppy.sh
+        container: qc.doc_snazzy-emerald-kingfisher
       gitlab.com/louise.cordrie/DT-LAVA-WF git:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-pear-octopus.sh
-        container: qc.doc_silly-carmine-squirrel
+        - /usr/bin/env sh .sqa/script.lumpy-amethyst-panda.sh
+        container: qc.doc_sickly-periwinkle-whale
       gitlab.com/louise.cordrie/DT-LAVA-WF markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-viridian-liger.sh
-        container: qc.doc_jumpy-maroon-scorpion
+        - /usr/bin/env sh .sqa/script.woolly-smalt-snail.sh
+        container: qc.doc_snoopy-yellow-moose
   QC.Lic:
     repos:
       gitlab.com/louise.cordrie/DT-LAVA-WF licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-ecru-deer.sh
-        container: qc.lic_sloppy-charcoal-peccary
+        - /usr/bin/env sh .sqa/script.wheezy-flax-mule.sh
+        container: qc.lic_snappy-brown-armadillo
   QC.Sec:
     repos:
       gitlab.com/louise.cordrie/DT-LAVA-WF bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-cinnabar-hare.sh
-        container: qc.sec_gimpy-periwinkle-setter
+        - /usr/bin/env sh .sqa/script.cheeky-scarlet-fousek.sh
+        container: qc.sec_gimpy-grey-booby
   QC.Sty:
     repos:
       gitlab.com/louise.cordrie/DT-LAVA-WF flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-asparagus-hound.sh
-        container: qc.sty_grumpy-tangerine-sparrow
+        - /usr/bin/env sh .sqa/script.stinky-lemon-macaque.sh
+        container: qc.sty_gimpy-peach-husky
       gitlab.com/louise.cordrie/DT-LAVA-WF jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-scarlet-mist.sh
-        container: qc.sty_lousy-fuchsia-dachsbracke
+        - /usr/bin/env sh .sqa/script.droopy-bronze-affenpinscher.sh
+        container: qc.sty_hazy-cinnabar-bandicoot
       gitlab.com/louise.cordrie/DT-LAVA-WF oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-beige-salamander.sh
-        container: qc.sty_queasy-flax-rat
+        - /usr/bin/env sh .sqa/script.stealthy-crimson-barnacle.sh
+        container: qc.sty_wimpy-plum-tarantula
   QC.Uni:
     repos:
       gitlab.com/louise.cordrie/DT-LAVA-WF pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-zucchini-goat.sh
-        container: qc.uni_hasty-crimson-mau
+        - /usr/bin/env sh .sqa/script.foggy-violet-moth.sh
+        container: qc.uni_stinky-cinnabar-otter
   QC.Ver:
     repos:
       gitlab.com/louise.cordrie/DT-LAVA-WF get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-blue-newfoundland.sh
-        container: qc.ver_pokey-periwinkle-mammoth
+        - /usr/bin/env sh .sqa/script.stinky-periwinkle-ibis.sh
+        container: qc.ver_crappy-burgundy-uguisu
 timeout: 5400

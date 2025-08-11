@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd gitlab.com/louise.cordrie/DT-LAVA-WF &&
-    git rev-parse --is-inside-work-tree 
+cd gitlab.com/louise.cordrie/DT-LAVA-WF/WF5301/ST530101 &&
+    mdl --json  .
 )

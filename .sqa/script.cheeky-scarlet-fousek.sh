@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd gitlab.com/louise.cordrie/DT-LAVA-WF &&
-    get_git_tags.py
+cd gitlab.com/louise.cordrie/DT-LAVA-WF/WF5301/ST530101 &&
+    bandit -f json --quiet  --confidence-level high --severity-level high --recursive  .
 )

@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd gitlab.com/louise.cordrie/DT-LAVA-WF &&
-    pytest  --json-report  --json-report-indent 4
+cd gitlab.com/louise.cordrie/DT-LAVA-WF/WF5301/ST530101 &&
+    oclint  -- -c
 )

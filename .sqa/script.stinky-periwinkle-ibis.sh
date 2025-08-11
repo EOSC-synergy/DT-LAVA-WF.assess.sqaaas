@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 (
-cd gitlab.com/louise.cordrie/DT-LAVA-WF &&
-    find_doc_files.py --file_type all
+cd gitlab.com/louise.cordrie/DT-LAVA-WF/WF5301/ST530101 &&
+    get_git_tags.py
 )
